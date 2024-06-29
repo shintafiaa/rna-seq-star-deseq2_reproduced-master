@@ -1,0 +1,23 @@
+name: rnaseq
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - snakemake=8.12.0
+  - fastqc
+  - multiqc
+  - samtools
+  - star
+  - subread
+  - htseq
+  - bioconductor-deseq2
+  - sra-tools
+  - cutadapt
+  - pandas
+  - numpy
+  - matplotlib
+  - pyyaml
+  - openpyxl
+  - seaborn
+
